@@ -21,7 +21,12 @@ function Header() {
         </div>
         <BiMenu size={25} className="sm:hidden cursor-pointer" onClick={() => setdrawer(true)} />
       </div>
-      <Drawer open={drawer} onClose={() => setdrawer(false)} anchor="right">
+      <Drawer open={drawer} onClose={() => setdrawer(false)} anchor="right" PaperProps={{
+                style: {
+                    backgroundColor: "white",
+                    borderRadius: "10px 0 0 10px"
+                }
+            }}>
         <DrawerNav />
       </Drawer>
   </div>;

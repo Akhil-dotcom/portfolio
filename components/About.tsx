@@ -15,8 +15,8 @@ function About() {
               {/* content */}
               <div className="flex-1">
                   <div></div>
-                  <div className="text-4xl xl:text-5xl text-center xl:text-left font-bold">Developing is my passion.</div>
-                  <div className="pt-5 sm:text-base xl:text-xl md:max-w-sm text-center xl:text-left">A self taught developer interested in developing as well as learning new technologies.</div>
+                  <div className="text-4xl xl:text-5xl text-center md:text-left font-bold">Developing is my passion.</div>
+                  <div className="sm:text-base xl:text-xl md:max-w-sm text-center md:text-left py-5 px-5 md:px-0">A self taught developer interested in developing as well as learning new technologies.</div>
               </div>
               {/* image */}
               <div className="flex-1 bg-gray-800 rounded-lg overflow-hidden">
@@ -57,7 +57,7 @@ function About() {
                           <div className="pl-5 text-blue-500">{code[4]}</div>
                           <div>{code[5]}</div>
                           <div className="space-x-2"><span className="text-pink-600">{code[6]}</span><span>{code[7]}</span></div>
-                          <div className="text-green-600 pt-5">// click on index.js to see what it does.</div>
+                          <div className="text-green-600 pt-5">// click on index.js to continue.</div>
                       </div>}
                   </div>
               </div>
