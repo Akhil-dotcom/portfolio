@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { RiBasketballLine } from 'react-icons/Ri'
+import { RiBasketballLine } from 'react-icons/ri'
 import { FiGithub } from 'react-icons/fi'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { BiMenu } from 'react-icons/bi'
