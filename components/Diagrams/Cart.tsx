@@ -10,22 +10,22 @@ function Cart() {
   <div className="flex gap-2 animate-pulse">
     <div className="h-8 w-8 xl:h-10 xl:w-10 rounded-md bg-slate-300"></div>
     <div className="flex-auto flex flex-col gap-2">
-      <div className="w-full h-2 xl:h-4 rounded-md bg-slate-300"></div>
-      <div className="w-20 h-2 xl:h-4 bg-slate-300 rounded-md"></div>
+      <div className="w-full h-2 xl:h-3 rounded-md bg-slate-300"></div>
+      <div className="w-20 h-2 xl:h-3 bg-slate-300 rounded-md"></div>
     </div>
   </div>
   <div className="flex gap-2 animate-pulse">
     <div className="h-8 w-8 xl:h-10 xl:w-10 rounded-md bg-slate-300"></div>
     <div className="flex-auto flex flex-col gap-2">
-      <div className="w-full h-2 xl:h-4 rounded-md bg-slate-300"></div>
-      <div className="w-20 h-2 xl:h-4 bg-slate-300 rounded-md"></div>
+      <div className="w-full h-2 xl:h-3 rounded-md bg-slate-300"></div>
+      <div className="w-20 h-2 xl:h-3 bg-slate-300 rounded-md"></div>
     </div>
   </div>
   <div className="hidden md:flex gap-2 animate-pulse">
     <div className="h-8 w-8 xl:h-10 xl:w-10 rounded-md bg-slate-300"></div>
     <div className="flex-auto flex flex-col gap-2">
-      <div className="w-full h-2 xl:h-4 rounded-md bg-slate-300"></div>
-      <div className="w-20 h-2 xl:h-4 bg-slate-300 rounded-md"></div>
+      <div className="w-full h-2 xl:h-3 rounded-md bg-slate-300"></div>
+      <div className="w-20 h-2 xl:h-3 bg-slate-300 rounded-md"></div>
     </div>
   </div>
 </div>;

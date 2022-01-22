@@ -3,7 +3,7 @@ import Connect from '../components/Connect'
 import Cart from '../components/Diagrams/Cart'
 import TeckStack from '../components/Diagrams/TeckStack'
 import UserProfile from '../components/Diagrams/UserProfile'
-import ESCR from '../components/ESCR'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </main>
       {/* <Connect /> */}
-      <ESCR />
+      <About />
     </div>
   )
 }

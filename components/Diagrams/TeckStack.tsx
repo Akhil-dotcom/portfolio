@@ -27,7 +27,7 @@ function TeckStack() {
               </div>
           </div>
           <div className="flex gap-2 items-center border rounded-md p-3">
-              <SiTailwindcss className="text-lg md:text-xl " />
+              <SiTailwindcss className="text-lg md:text-xl text-cyan-500" />
               <div className="flex-auto flex flex-col gap-1">
                   <div className="text-xs sm:text-sm font-semibold whitespace-nowrap">Tailwind</div>
                   <div className="h-2 md:h-3 animate-pulse bg-slate-300 w-full rounded-md"></div>
