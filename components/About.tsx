@@ -15,8 +15,8 @@ function About() {
               {/* content */}
               <div className="flex-1">
                   <div></div>
-                  <div className="text-4xl xl:text-5xl font-bold">Developing is my passion.</div>
-                  <div className="pt-5 sm:text-base xl:text-xl md:max-w-sm">A self taught developer interested in developing as well as learning new technologies.</div>
+                  <div className="text-4xl xl:text-5xl text-center xl:text-left font-bold">Developing is my passion.</div>
+                  <div className="pt-5 sm:text-base xl:text-xl md:max-w-sm text-center xl:text-left">A self taught developer interested in developing as well as learning new technologies.</div>
               </div>
               {/* image */}
               <div className="flex-1 bg-gray-800 rounded-lg overflow-hidden">
