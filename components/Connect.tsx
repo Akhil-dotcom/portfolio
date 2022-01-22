@@ -7,13 +7,13 @@ function Connect() {
       <div className="max-w-screen-sm mx-auto p-5 py-20">
           <div className="flex flex-col gap-10">
               <div className="flex-1 relative">
-                  <div className="text-6xl font-bold">
+                  <div className="text-4xl md:text-6xl font-bold">
                       <div className="flex items-center gap-3">Let's <HiArrowNarrowRight /></div>
                       <div>Connect</div>
                   </div>
                   <p className="md:text-lg pt-3 max-w-xs md:max-w-sm">I am open for new opportunities and interesting projects.</p>
-                  <div className="absolute py-10 -top-5 right-0 md:bottom-0">
-                      <button className="bg-indigo-50 text-indigo-500 rounded-full text-xs md:text-sm shadow-md flex flex-col rotate-12 h-28 w-28 p-3 items-center justify-center">
+                  <div className="absolute py-10 -top-16 -right-5 md:bottom-0">
+                      <button className="bg-slate-200  rounded-full text-xs md:text-sm flex flex-col rotate-12 h-24 w-24 p-3 items-center justify-center">
                           <span>Open for</span>
                           <span>new projects</span>
                       </button>
