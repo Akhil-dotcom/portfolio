@@ -2,7 +2,7 @@ import { SiTailwindcss, SiHtml5, SiJavascript,SiSass, SiReact, SiNextdotjs, SiTy
 import { DiCss3 } from 'react-icons/di'
 
 function TeckStack() {
-  return <div className="border p-5 w-full overflow-x-hidden font-readex bg-white shadow-lg rounded-md absolute -top-5 md:top-10 left-10 flex flex-col gap-4 z-30 hover:z-50">
+  return <div className="border p-5 w-full font-readex bg-white shadow-lg rounded-md absolute -top-5 md:top-10 left-10 flex flex-col gap-4 z-30 hover:z-50">
       <div className="text-xs sm:text-sm md:text-xl font-bold">Tech Stack</div>
       <div className="grid grid-cols-3 gap-3">
           <div className="flex gap-2 items-center border rounded-md p-3">

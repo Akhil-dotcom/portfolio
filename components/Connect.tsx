@@ -13,7 +13,7 @@ function Connect() {
                   </div>
                   <p className="md:text-lg pt-3 max-w-xs md:max-w-sm">I am open for new opportunities and interesting projects.</p>
                   <div className="absolute py-10 -top-5 right-0 md:bottom-0">
-                      <button className="bg-indigo-50 text-indigo-500 rounded-full text-sm shadow-md flex flex-col rotate-12 h-28 w-28 p-3 items-center justify-center">
+                      <button className="bg-indigo-50 text-indigo-500 rounded-full text-xs md:text-sm shadow-md flex flex-col rotate-12 h-28 w-28 p-3 items-center justify-center">
                           <span>Open for</span>
                           <span>new projects</span>
                       </button>

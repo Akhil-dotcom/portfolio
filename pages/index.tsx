@@ -21,7 +21,7 @@ export default function Home() {
               <button className="bg-white py-2 font-semibold px-4 rounded-md w-full md:w-max border-2 border-black font-readex">Let's Talk</button>
             </div>
           </div>
-          <div className="flex-1 relative py-20 md:py-0 w-11/12 mx-auto md:w-full">
+          <div className="flex-1 relative py-20 md:py-0 w-11/12 mx-auto md:w-full overflow">
             <Cart />
             <TeckStack />
             <UserProfile />
