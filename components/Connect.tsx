@@ -12,12 +12,12 @@ function Connect() {
                       <div>Connect</div>
                   </div>
                   <p className="md:text-lg pt-3 max-w-xs md:max-w-sm">I am open for new opportunities and interesting projects.</p>
-                  <div className="absolute py-10 -top-16 -right-5 md:bottom-0">
+                  {/* <div className="absolute py-10 -top-16 -right-5 md:bottom-0">
                       <button className="bg-slate-200  rounded-full text-xs md:text-sm flex flex-col rotate-12 h-24 w-24 p-3 items-center justify-center">
                           <span>Open for</span>
                           <span>new projects</span>
                       </button>
-                  </div>
+                  </div> */}
               </div>
               {/* form */}
               <div className="flex-1">
