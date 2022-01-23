@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiSass, SiReact, SiNextdotjs, SiNodedotjs, SiTypescript, SiExpress, SiMongodb } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiSass, SiReact, SiNextdotjs, SiNodedotjs, SiTypescript, SiExpress, SiMongodb, SiMaterialui, SiRedux } from 'react-icons/si'
 
 function SkillDashboard() {
   const [page, setpage] = useState<number>(1);
@@ -7,7 +7,7 @@ function SkillDashboard() {
   
   return (
     <div className="border-2 border-slate-400 rounded-md p-1 md:p-3 max-w-3xl mx-auto">
-        <div className="border-2 border-gray-900 bg-gray-900 flex flex-col md:flex-row rounded-md overflow-hidden min-h-[300px]">
+        <div className="border-2 border-gray-900 bg-gray-900 flex flex-col md:flex-row rounded-md overflow-hidden min-h-[400px] md:min-h-[300px]">
             {/* menu */}
             <div className="bg-gray-700">
                 <div className="flex items-center space-x-1 pl-3 p-3">
@@ -24,7 +24,7 @@ function SkillDashboard() {
             </div>
             {/* pages */}
             {page === 1 && <div className="flex-auto p-5">
-                <h3 className="text-lg text-pink-600">Skill List</h3>
+                <h3 className="text-lg text-indigo-500">Skill List</h3>
                 {/* skills */}
                 <div className="pt-5 flex items-center flex-wrap gap-3">
                     <div className="skill-btn">
@@ -52,6 +52,12 @@ function SkillDashboard() {
                         </div>
                     </div>
                     <div className="skill-btn">
+                        <SiMaterialui className="text-blue-700 text-2xl" />
+                        <div>
+                            <p className="text-gray-900 text-sm font-semibold">Material UI</p>
+                        </div>
+                    </div>
+                    <div className="skill-btn">
                         <SiSass className="text-pink-500 text-2xl" />
                         <div>
                             <p className="text-gray-900 text-sm font-semibold">Sass</p>
@@ -61,6 +67,12 @@ function SkillDashboard() {
                         <SiReact className="text-blue-400 text-2xl" />
                         <div>
                             <p className="text-gray-900 text-sm font-semibold">React Js</p>
+                        </div>
+                    </div>
+                    <div className="skill-btn">
+                        <SiRedux className="text-purple-500 text-2xl" />
+                        <div>
+                            <p className="text-gray-900 text-sm font-semibold">Redux</p>
                         </div>
                     </div>
                     <div className="skill-btn">
@@ -84,7 +96,7 @@ function SkillDashboard() {
                 </div>
             </div>}
             {page === 2 && <div className="text-white flex-auto p-5">
-            <h3 className="text-lg text-pink-600">Frontend</h3>
+            <h3 className="text-lg text-indigo-500">Frontend</h3>
                 {/* skills */}
                 <div className="pt-5 flex items-center flex-wrap gap-3">
                     <div className="skill-btn">
@@ -109,6 +121,12 @@ function SkillDashboard() {
                         <SiTailwindcss className="text-cyan-400 text-2xl" />
                         <div>
                             <p className="text-gray-900 text-sm font-semibold">Tailwind css</p>
+                        </div>
+                    </div>
+                    <div className="skill-btn">
+                        <SiMaterialui className="text-blue-700 text-2xl" />
+                        <div>
+                            <p className="text-gray-900 text-sm font-semibold">Material UI</p>
                         </div>
                     </div>
                     <div className="skill-btn">
@@ -138,7 +156,7 @@ function SkillDashboard() {
                 </div>
                 </div>}
             {page === 3 && <div className="text-white flex-auto p-5">
-            <h3 className="text-lg text-pink-600">CSS Frameworks</h3>
+            <h3 className="text-lg text-indigo-500">CSS Frameworks</h3>
                 {/* skills */}
                 <div className="pt-5 flex items-center flex-wrap gap-3">
                     <div className="skill-btn">
@@ -154,6 +172,12 @@ function SkillDashboard() {
                         </div>
                     </div>
                     <div className="skill-btn">
+                        <SiMaterialui className="text-blue-700 text-2xl" />
+                        <div>
+                            <p className="text-gray-900 text-sm font-semibold">Material UI</p>
+                        </div>
+                    </div>
+                    <div className="skill-btn">
                         <SiSass className="text-pink-500 text-2xl" />
                         <div>
                             <p className="text-gray-900 text-sm font-semibold">Sass</p>
@@ -162,7 +186,7 @@ function SkillDashboard() {
                 </div>
                 </div>}
             {page === 4 && <div className="text-white flex-auto p-5">
-            <h3 className="text-lg text-pink-600">Backend</h3>
+            <h3 className="text-lg text-indigo-500">Backend</h3>
                 {/* skills */}
                 <div className="pt-5 flex items-center flex-wrap gap-3">
                     <div className="skill-btn">

@@ -1,50 +1,31 @@
-import { useForm } from 'react-hook-form'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+import React from 'react';
+import { RiBasketballLine } from 'react-icons/ri'
 
 function Connect() {
-  const { register, handleSubmit } = useForm()  
-  return <div className="font-readex">
-      <div className="max-w-screen-sm mx-auto p-5 py-20">
-          <div className="flex flex-col gap-10">
-              <div className="flex-1 relative">
-                  <div className="text-4xl md:text-6xl font-bold">
-                      <div className="flex items-center gap-3">Let's <HiArrowNarrowRight /></div>
-                      <div>Connect</div>
-                  </div>
-                  <p className="md:text-lg pt-3 max-w-xs md:max-w-sm">I am open for new opportunities and interesting projects.</p>
-                  {/* <div className="absolute py-10 -top-16 -right-5 md:bottom-0">
-                      <button className="bg-slate-200  rounded-full text-xs md:text-sm flex flex-col rotate-12 h-24 w-24 p-3 items-center justify-center">
-                          <span>Open for</span>
-                          <span>new projects</span>
-                      </button>
-                  </div> */}
-              </div>
-              {/* form */}
-              <div className="flex-1">
-                  <form className="flex flex-col gap-8">
-                      <div className="flex flex-col">
-                          <label className="font-medium">Your name:</label>
-                          <input className="bg-slate-200 rounded-md outline-none p-1 px-2" />
-                      </div>
-                      <div className="flex flex-col">
-                          <label className="font-medium">Your email address:</label>
-                          <input className="bg-slate-200 rounded-md outline-none p-1 px-2" />
-                      </div>
-                      <div className="flex flex-col">
-                          <label className="font-medium">Your message:</label>
-                          <textarea className="bg-slate-200 rounded-md outline-none p-1 px-2" />
-                      </div>
-                      <div>
-                          <button className="flex text-indigo-500 items-center text-lg font-bold">
-                              <p>Send</p>
-                              <HiArrowNarrowRight size={30} />
-                          </button>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </div>
-  </div>;
+  return (
+    <div className="font-readex">
+        <div className="max-w-screen-xl mx-auto p-5 py-20">
+            <div className="h-24 w-24 bg-indigo-100 mx-auto rounded-full mb-8 flex flex-col items-center justify-center">
+                <RiBasketballLine size={45} className="animate-bounce text-indigo-500" />
+                <div className="h-1 w-full rounded-full bg-indigo-500"></div>
+            </div>
+            <div className="text-sm pb-1 text-center xl:text-lg text-blue-800">What next?</div>
+            <div className="text-4xl xl:text-5xl text-center font-bold">Let's get in <span className="underline text-indigo-500">Touch!</span></div>
+            <p className="sm:text-base xl:text-lg text-center py-5">Fill the form or <span className="underline font-bold">send me an email</span></p>
+            <form className="max-w-xl mx-auto pt-5">
+                <div className="flex flex-col gap-5">
+                    <input placeholder="What's your name?" className="border-b-2 border-slate-100 focus:border-indigo-500 outline-none p-3 px-0" />
+                    <input placeholder="What's your email address?" className="border-b-2 border-slate-100 focus:border-indigo-500 outline-none p-3 px-0" />
+                    <textarea placeholder="Your message" className="border-b-2 border-slate-100 h-24 focus:border-indigo-500 outline-none p-3 px-0" />
+                </div>
+                <div className="pt-10 flex justify-center gap-5">
+                    <button className="rounded-md border-2 border-gray-900 p-2 px-4 hover:scale-105 active:scale-95 duration-150">Send it</button>
+                    <a href="mailto:akhilrajktt@gmail.com" className="rounded-md border-2 border-gray-900 p-2 px-4 bg-gray-900 text-white hover:scale-105 active:scale-95 duration-150">Mail Me</a>
+                </div>
+            </form>
+        </div>
+    </div>
+  );
 }
 
 export default Connect;
