@@ -3,9 +3,9 @@ import { RiBasketballLine } from 'react-icons/ri'
 
 function Connect() {
   return (
-    <div className="font-readex">
+    <div className="font-readex" id="connect">
         <div className="max-w-screen-xl mx-auto p-5 py-20">
-            <div className="h-24 w-24 bg-indigo-100 mx-auto rounded-full mb-8 flex flex-col items-center justify-center">
+            <div className="h-24 w-24 mx-auto rounded-full mb-8 flex flex-col items-center justify-center">
                 <RiBasketballLine size={45} className="animate-bounce text-indigo-500" />
                 <div className="h-1 w-full rounded-full bg-indigo-500"></div>
             </div>
