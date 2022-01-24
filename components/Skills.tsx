@@ -3,7 +3,7 @@ import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 import SkillDashboard from './Diagrams/SkillDashboard';
 
 function Skills() {
-  return <div className="font-readex">
+  return <div className="font-readex" id="skills">
       <div className="max-w-screen-xl mx-auto p-5 py-20">
           {/* HTML CSS JS React Next Tailwind scss Node js mongodb firebase */}
           <div className="text-4xl xl:text-5xl text-center font-bold">Skills</div>

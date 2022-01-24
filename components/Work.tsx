@@ -3,7 +3,7 @@ import { GrShare } from "react-icons/gr";
 import { BiLaptop } from "react-icons/bi"
 
 function Work() {
-  return <div className="font-readex">
+  return <div className="font-readex" id="work">
       <div className="max-w-screen-xl mx-auto p-5 py-10">
           <div className="pb-5">
               <div className="text-4xl xl:text-5xl  font-bold">My Work</div>
