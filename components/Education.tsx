@@ -1,38 +1,12 @@
 import React from 'react';
 
 function Education() {
-  interface Details{
-    degree: string;
-    year: string;
-    cgpa: number;
-    college: string;
-  }
-  const Education:Array<Details> = [
-    {
-      degree: "M-Tech Intergrated Software",
-      year: "2021",
-      cgpa: 73,
-      college: "Vellore Institute of Technology",
-    },
-    {
-      degree: "XII th",
-      year: "2016",
-      cgpa: 70,
-      college: "Vellamal Vidhyashram",
-    },
-    {
-      degree: "X th",
-      year: "2014",
-      cgpa: 98,
-      college: "St. John's Hr Sec School"
-    }
-  ]
   return (
     <div className="font-readex">
         <div className="max-w-screen-xl mx-auto p-5 py-20 flex flex-col lg:flex-row gap-5 md:gap-10">
             <div className="flex-1">
                 <h3 className="text-4xl xl:text-5xl font-bold">Education</h3>
-                <p className="sm:text-base xl:text-lg md:max-w-lg text-center md:text-left py-3">The things that helped me out to make me what i am today.</p>
+                <p className="sm:text-base xl:text-lg md:max-w-lg text-left py-3">The things that helped me out to make me what i am today.</p>
             </div>
             {/* details */}
             <div className="flex-1">
