@@ -10,7 +10,7 @@ function Connect() {
                 <div className="h-1 w-full rounded-full bg-indigo-500"></div>
             </div>
             <div className="text-sm pb-1 text-center xl:text-lg text-blue-800">What next?</div>
-            <div className="text-4xl xl:text-5xl text-center font-bold">Let's get in <span className="underline text-indigo-500">Touch!</span></div>
+            <div className="text-4xl xl:text-5xl text-center font-bold">Let&#39;s get in <span className="underline text-indigo-500">Touch!</span></div>
             <p className="sm:text-base xl:text-lg text-center py-5">Fill the form or <span className="underline font-bold">send me an email</span></p>
             <form className="max-w-xl mx-auto pt-5" action="https://formsubmit.co/akhilrajktt@gmail.com" method="POST">
                 <div className="flex flex-col gap-5">

@@ -58,7 +58,7 @@ function About() {
                           <div className="pl-5 text-blue-500">{code[4]}</div>
                           <div>{code[5]}</div>
                           <div className="space-x-2"><span className="text-pink-600">{code[6]}</span><span>{code[7]}</span></div>
-                          <div className="text-green-600 pt-5">// click on index.js to continue.</div>
+                          <div className="text-green-600 pt-5">&#47;&#47; click on index.js to continue.</div>
                       </div>}
                   </div>
               </div>
