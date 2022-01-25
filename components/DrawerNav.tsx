@@ -4,7 +4,6 @@ import { HiOutlineDocumentText } from 'react-icons/hi'
 import { SiGmail, SiLinkedin } from 'react-icons/si'
 import { GrConnect } from 'react-icons/gr'
 import { Link as Link1 } from 'react-scroll'
-import Link from 'next/link'
  
 function DrawerNav() {
   return <div className="p-5 font-readex min-w-[300px]">
@@ -34,12 +33,12 @@ function DrawerNav() {
           <FaLaptopCode className="text-xl" />
           <div>Work</div>
         </Link1>
-        <Link href="/resume">
+        <a href="/resume/Resume-(Akhil Raj).pdf" download="Resume">
           <div className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2 hover:scale-105 active:scale-95 duration-150">
             <HiOutlineDocumentText className="text-xl" />
             <div>Resume</div>
           </div>
-        </Link>
+        </a>
         <Link1 to="connect" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2 hover:scale-105 active:scale-95 duration-150">
           <GrConnect className="text-xl" />
           <div>Connect with me</div>

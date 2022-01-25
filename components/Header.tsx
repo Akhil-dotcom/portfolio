@@ -6,7 +6,6 @@ import { BiMenu } from 'react-icons/bi'
 import { Drawer } from '@mui/material'
 import DrawerNav from './DrawerNav'
 import { Link as Link1 } from 'react-scroll'
-import Link from 'next/link'
 
 
 function Header() {
@@ -17,7 +16,7 @@ function Header() {
         <div className="hidden sm:flex items-center gap-8">  
             <Link1 to="work" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Work</Link1>
             <Link1 to="skills" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Skills</Link1>
-            <Link href="/resume">Resume</Link>
+            <a href="/resume/Resume-(Akhil Raj).pdf" download="Resume">Resume</a>
             <a href="https://wa.me/919566060492?text=Hi%20Code%20Bounce" className="cursor-pointer hover:scale-105 active:scale-95 duration-150">Contact</a>
         </div>
         <div className="hidden sm:flex items-center gap-5">
