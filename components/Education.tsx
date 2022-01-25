@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Education() {
@@ -61,6 +62,13 @@ function Education() {
                       <div className="bg-white w-max h-max p-1 px-2 border-2 border-slate-300 text-xs rounded-md">2014</div>
                     </div>
                   </div>
+                </div>
+                {/* resume */}
+                <div className="flex items-center justify-between pt-3 px-1">
+                  <div className="text-indigo-500">Take a look at my resume</div>
+                  <Link href="/resume">
+                    <button className="bg-indigo-500 text-white p-1 px-4 rounded-md hover:scale-105 active:scale-95 duration-200">Resume</button>
+                  </Link>
                 </div>
               </div>
             </div>
