@@ -7,7 +7,6 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import { Link as Link1 } from 'react-scroll'
 import Footer from '../components/Footer'
-import Resume from '../components/Resume'
 import Work from '../components/Work'
 import Education from '../components/Education'
 // import { MdKeyboardArrowUp } from 'react-icons/md'
@@ -40,7 +39,6 @@ export default function Home() {
       <Skills />
       <Education />
       <Work />
-      {/* <Resume /> */}
       <Connect />
       {/* scroll to top */}
       {/* <Link1 to="home" smooth={true} spy={true} className="h-10 w-10 flex items-center justify-center rounded-full bg-white shadow-lg fixed bottom-3 right-3">

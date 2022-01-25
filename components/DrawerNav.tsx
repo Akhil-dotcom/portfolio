@@ -3,7 +3,8 @@ import { FaLaptopCode } from 'react-icons/fa'
 import { HiOutlineDocumentText } from 'react-icons/hi'
 import { SiGmail, SiLinkedin } from 'react-icons/si'
 import { GrConnect } from 'react-icons/gr'
-import { Link } from 'react-scroll'
+import { Link as Link1 } from 'react-scroll'
+import Link from 'next/link'
  
 function DrawerNav() {
   return <div className="p-5 font-readex min-w-[300px]">
@@ -23,22 +24,24 @@ function DrawerNav() {
       {/* menu items */}
       <div className="text-xs pb-3 pt-5 pl-1">Menu</div>
       <div className="flex flex-col gap-3">
-        <Link to="home" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
+        <Link1 to="home" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
           <BiHomeAlt className="text-xl" />
           <div>Home</div>
-        </Link>
-        <Link to="work" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
+        </Link1>
+        <Link1 to="work" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
           <FaLaptopCode className="text-xl" />
           <div>Work</div>
+        </Link1>
+        <Link href="/resume">
+          <div className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
+            <HiOutlineDocumentText className="text-xl" />
+            <div>Resume</div>
+          </div>
         </Link>
-        <div className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
-          <HiOutlineDocumentText className="text-xl" />
-          <div>Resume</div>
-        </div>
-        <Link to="connect" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
+        <Link1 to="connect" spy={true} smooth={true} className="text-sm flex gap-2 cursor-pointer rounded-md p-1 py-2">
           <GrConnect className="text-xl" />
           <div>Connect with me</div>
-        </Link>
+        </Link1>
         {/* social links */}
         <div className="text-xs pt-5 pl-1 border-t-2">Social connects</div>
         <div className="bg-white shadow-md p-4 rounded-md flex flex-col gap-2">

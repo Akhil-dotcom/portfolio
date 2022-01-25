@@ -24,7 +24,7 @@ function Education() {
                     <div className="flex items-center gap-3 md:col-span-2 p-2 px-4">
                       <div className="h-3 w-4 md:w-6 rounded-full bg-red-300"></div>
                       <div>
-                        <div className="font-semibold">Degree</div>
+                        <div className="font-semibold">MTech (5Years)</div>
                         <div className="text-xs sm:text-sm">Vellore Institute of Technology</div>
                       </div>
                     </div>

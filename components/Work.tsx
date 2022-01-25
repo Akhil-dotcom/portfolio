@@ -137,6 +137,9 @@ function Work() {
                      <div className="border-2 border-slate-200 rounded-md p-2 bg-slate-200">
                          <img src="/images/avoke.png" className="h-56 md:h-72 rounded-md w-full object-contain" />
                      </div>
+                     <div className="border-2 border-slate-200 rounded-md p-2 bg-slate-200">
+                         <img src="/images/ecom.png" className="h-56 md:h-72 rounded-md w-full object-contain" />
+                     </div>
                   </div>
               </div>
           </div>
