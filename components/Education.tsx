@@ -54,7 +54,7 @@ function Education() {
                       <div className="h-3 w-4 md:w-6 rounded-full bg-green-300"></div>
                       <div>
                         <div className="font-semibold">Xth</div>
-                        <div className="text-xs sm:text-sm">St.John's Hr Sec School</div>
+                        <div className="text-xs sm:text-sm">St.John&#39;s Hr Sec School</div>
                       </div>
                     </div>
                     <div className="flex items-center p-2 px-4 justify-center gap-5 bg-slate-200">
