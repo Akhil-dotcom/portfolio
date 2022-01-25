@@ -66,7 +66,7 @@ function Education() {
                 {/* resume */}
                 <div className="flex items-center justify-between pt-3 px-1">
                   <div className="text-indigo-500">Take a look at my resume</div>
-                  <Link href="/resume">
+                  <Link href="/resume" passHref={true}>
                     <button className="bg-indigo-500 text-white p-1 px-4 rounded-md hover:scale-105 active:scale-95 duration-200">Resume</button>
                   </Link>
                 </div>
