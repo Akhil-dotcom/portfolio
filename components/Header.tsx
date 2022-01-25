@@ -5,7 +5,8 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 import { BiMenu } from 'react-icons/bi'
 import { Drawer } from '@mui/material'
 import DrawerNav from './DrawerNav'
-import { Link } from 'react-scroll'
+import { Link as Link1 } from 'react-scroll'
+import Link from 'next/link'
 
 
 function Header() {
@@ -14,9 +15,10 @@ function Header() {
       <div className="flex items-center bg-white justify-between w-full max-w-screen-xl mx-auto p-5 rounded-md">
         <div className="flex items-center text-2xl font-semibold">Code B<RiBasketballLine className="text-indigo-500" />unce</div>
         <div className="hidden sm:flex items-center gap-8">  
-            <Link to="work" spy={true} smooth={true} className="cursor-pointer">Work</Link>
-            <Link to="skills" spy={true} smooth={true} className="cursor-pointer">Skills</Link>
-            <div className="cursor-pointer">Contact</div>
+            <Link1 to="work" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Work</Link1>
+            <Link1 to="skills" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Skills</Link1>
+            <Link href="/resume">Resume</Link>
+            <a href="https://wa.me/919566060492?text=Hi%20Code%20Bounce" className="cursor-pointer hover:scale-105 active:scale-95 duration-150">Contact</a>
         </div>
         <div className="hidden sm:flex items-center gap-5">
             <a href="https://www.linkedin.com/in/akhil-raj-2699371aa/"><AiOutlineLinkedin size={25} className="cursor-pointer text-blue-500" /></a>
