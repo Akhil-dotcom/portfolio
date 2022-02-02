@@ -17,7 +17,7 @@ function About() {
               <div className="flex-1">
                   <div className="text-sm pb-1 text-center md:text-left xl:text-lg text-blue-800">{aboutText}</div>
                   <div className="text-4xl xl:text-5xl text-center md:text-left font-bold">Developing is my passion.</div>
-                  <div className="sm:text-base xl:text-lg md:max-w-lg text-center md:text-left py-5">A self taught developer interested in developing as well as learning new technologies. I started my development journey as a freelancer which helped me learn a lot.<br/> I started aquiring the projects first, then figured out the technologies needed to complete the project, this helped me in learning new technologies.</div>
+                  <div className="sm:text-base xl:text-lg md:max-w-lg text-center md:text-left py-5">A self-taught developer, interested in developing as well as learning new technologies. I started my development journey as a freelancer which helped me learn a lot. I started acquiring the projects first, then figured out the technologies needed to complete the project, this helped me in learning new technologies.</div>
               </div>
               {/* image */}
               <div className="flex-1 bg-gray-800 rounded-lg overflow-hidden">
