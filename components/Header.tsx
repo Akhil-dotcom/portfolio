@@ -17,7 +17,7 @@ function Header() {
             <Link1 to="work" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Work</Link1>
             <Link1 to="skills" spy={true} smooth={true} className="cursor-pointer hover:underline hover:scale-105 active:scale-95 duration-150">Skills</Link1>
             <a href="/resume/Resume-(Akhil Raj).pdf" download="Resume">Resume</a>
-            <a href="https://wa.me/919566060492?text=Hi%20Code%20Bounce" className="cursor-pointer hover:scale-105 active:scale-95 duration-150">Contact</a>
+            <a href="https://wa.me/919710635120?text=Hi%20Code%20Bounce" className="cursor-pointer hover:scale-105 active:scale-95 duration-150">Contact</a>
         </div>
         <div className="hidden sm:flex items-center gap-5">
             <a href="https://www.linkedin.com/in/akhil-raj-2699371aa/"><AiOutlineLinkedin size={25} className="cursor-pointer text-blue-500" /></a>
